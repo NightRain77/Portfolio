@@ -1,0 +1,19 @@
+h1
+{
+    color:darkslateblue;
+    font-size: 50px;
+    font-family: "Palatino", serif;
+    text-align: center;
+}
+h3
+{
+    font-size: 25px;
+    font-family: "Palatino", serif;
+    text-align: center;
+}
+body
+{
+    background-color: lavender;
+    font-size: 17px;
+    text-align: center;
+}
