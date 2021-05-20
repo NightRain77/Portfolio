@@ -2,13 +2,13 @@ h1
 {
     color:forestgreen;
     font-size: 50px;
-    font-family: "Palatino", serif;
+    font-family: "Monaco", "Courier New", monospace;
     text-align: center;
 }
 h3
 {
     font-size: 25px;
-    font-family: "Palatino", serif;
+    font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 body
@@ -21,7 +21,7 @@ h4
 {
     color:forestgreen;
     text-align:left;
-    font-family: "Palatino", serif;
+    font-family: "Monaco", "Courier New", monospace;
 }
 li
 {
@@ -35,7 +35,7 @@ ul.navbar {
   overflow: hidden;
   background-color: #cfbae1;
   text-align: left;
-  font-family: "MouseMemoir";
+  font-family: "Monaco", "Courier New", monospace;
   letter-spacing: 1px;
   color: #09142e;
   font-size: 20px;
