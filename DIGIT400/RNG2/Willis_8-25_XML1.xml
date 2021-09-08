@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Willis_9-10_RelaxNG2.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>An exploration of how and why places become invested with SACREDNESS and how the SACRED
+        is embodied or made manifest through ART and ARCHITECTURE</header>
+    <title>ISLE SHRINE, <location type="country">JAPAN</location></title>
+    <p n="1">Trees and stones have long been objects of deep devotion in <location type="country"
+            >Japan</location>. Originally there were no shrine buildings; instead a tree, forest, or
+        a large boulder or a mountain, festooned with ropes, would be the focus of worship.</p>
+    <p n="2">In <location type="country">Japan</location> the mysterious forces of nature, called ke, were
+        believed to permeate palpable matter and formless space <paren>(collectively called mono in
+                <language>Japanese</language>)</paren> to create mononoke. Mononoke was seen to
+        coalesce in trees and stones. Certain trees, especially the
+            <plantSpecies>cryptomeria</plantSpecies> and the <plantSpecies>evergreen
+            sakaki</plantSpecies>, were considered sacred for this reason. When one of these trees
+        was felled and the wood used in the construction of a shrine, this sacred quality was
+        believed to follow it into the building. The sacred tree itself was literally and
+        symbolically present in the form of a pillar or post around which the shrine was
+        constructed.</p>
+    <p n="3">The great <religion>Shinto</religion> shrine at <location type="city">Ise</location> is built
+        amid a dense forest of giant <plantSpecies>cryptomeria</plantSpecies> trees next to the
+            <landmark type="river">Isuzu River </landmark>at the foot of <landmark type="mountain"
+            >Mount Kamiji</landmark> and <landmark type="mountain">Mount Shimaji</landmark> in the
+            <location type="prefecture">Mie Prefecture</location>
+        <link>[see Mie Prefecture]</link> in southern <location type="island">Honshu</location>,
+            <location type="country">Japan</location>. Crossing the Uji Bridge and passing through
+        the large torii gate marking the entrance to the shrine, a long path leads to
+            <shrineName>Ise Jingu</shrineName>
+        <paren>(<shrineName>Ise Grand Shrine</shrineName>)</paren>.</p>
+    <p n="4">The shrine consists of two groups of buildings: the <shrineName>Imperial Shrine</shrineName>
+        <paren>(Kotai Jingu)</paren>, also known as the Naiku <paren>(inner shrine)</paren>, and the
+            <shrineName>Toyouke Shrine</shrineName>
+        <paren>(Toyouke Daijingu )</paren> which constitutes the Geku or outer shrine. The Naiku is
+        dedicated to the <diety>Sun Goddess Amaterasu Omikami</diety>
+        <paren>(Heaven-Illuminating Great Deity)</paren>, and the Geku to the <diety>Goddess of
+            Cereals Toyouke Omikami</diety>
+        <paren>(Abundant Food Great Deity)</paren>. Each shrine is composed of a number of
+        buildings, including ancillary shrines, workshops, storehouses, etc. Each shrine has an
+        inner precinct with a main sanctuary and two attendant shrines, as well as treasuries,
+        fences, and gates.</p>
+    <p n="5">Both shrines are constructed of wood, and every twenty years both are totally rebuilt on an
+        adjoining site. The empty site of the previous shrine <paren>(called the kodenchi)</paren>
+        is strewn with large white pebbles. The only building on the empty site, which retains its
+        sacredness for the intervening twenty years, is a small wooden shed or hut
+            <paren>(oi-ya)</paren> inside of which is a post about seven feet high known as
+        shin-no-mihashira <paren>(literally the august column of the heart, or more freely
+            translated as sacred central post)</paren>. The new shrine will be erected over and
+        around this post which are the holiest and most mysterious objects in the <shrineName>Ise
+            Shrine</shrineName>. They remain hidden at all times.</p>
+    <img of="The oi-ya in the old shrine compound of the Naiku"/> <!--AW: added to meet self closing requirement for REGEX2-->
+    <p n="6"><person type="author">Kenzo Tange</person> and <person type="author">Noboru Kawazoe</person>
+        <paren>(p. 167, see Bibliography below)</paren> suggest that: <quote>the erection of a
+            single post in the center of a sacred area strewn with stones represents the form taken
+            by <ethnicity>Japanese</ethnicity> places of worship in very ancient times; the
+            shin-no-mihashira would thus be the survival of a symbolism from a very pimitive
+            symbolism to the present day.</quote> The present buildings reproduce the temple first
+        ceremoniously rebuilt in 692 CE by <person type="leader">Empress Jito.</person> The first
+        temple had been built by her husband <person type="leader">Emperor Temmu</person>
+        <paren>(678-686)</paren>, the first Mikado to rule over a united <location type="country"
+            >Japan</location>.</p>
+    <p n="7"><person type="leader">Emperor Temmu</person> had established <location type="city"
+            >Ise</location> as the principal cult shrine of Imperial <location type="country"
+            >Japan</location>, but the site itself, and the <plantSpecies>cryptomeria</plantSpecies>
+        trees that grew on it, were already sacred before then. The
+            <plantSpecies>cryptomeria</plantSpecies> is a tree associated with
+            <religion>Shinto</religion> shrines. The principal sacred plant of
+            <religion>Shinto</religion>, however, is the <plantSpecies>sakaki</plantSpecies>
+        <paren>(a shrub related to the tea bush)</paren>. The shin-no-mihashira is taken to
+        represent a branch of the <plantSpecies>sakaki</plantSpecies> stuck upright in the ground.</p>
+    <p n="8">The chambers of the shrines are raised on timber piles which themselves are analogous to the
+        central sacred post. The roof is not supported by the walls <paren>(although the rafters do
+            rest on purlins)</paren>, but the ridge beam is carried instead by two large columns at
+        either end which embedded directly into the ground without any foundation.</p>
+    <p n="9">Besides trees, at the <shrineName><location type="city">Ise</location> Shrine</shrineName>
+        are many subsidiary shrines of rocks from the sea which are regarded as the abodes
+            <paren>(iwakura or rock abodes)</paren> of deities.</p>
+    <bib>
+        <subHead>Bibliography:</subHead>
+
+        <ref><person type="author">Kenzo Tange</person> and <person type="author">Noboru
+                Kawazoe</person>, Ise: Prototype of <ethnicity>Japanese</ethnicity> Architecture,
+                <location type="city">Cambridge</location>, <location type="state"
+                >Massachusetts</location>: M.I.T. Press, 1965.</ref>
+        <ref><person type="author">Yasutada Watanabe</person>, <religion>Shinto</religion> Art:
+                    <shrineName><location type="city">Ise</location> and Izumo Shrines,</shrineName>
+            <location type="state">New York</location>: Weatherhill, 1974 <paren>(first published in
+                    <language>Japanese</language>, 1964)</paren>.</ref>
+        <ref>The Roots of <ethnicity>Japanese</ethnicity> Architecture, a photographic quest by
+                <person type="author">Yukio Futagawa</person>, with text and commentary by <person
+                type="author">Teiji Itoh</person>, <location type="state">New York</location>:
+            Harper &amp; Row, 1963 <paren>(first published in <language>Japanese</language>,
+                1962)</paren>.</ref>
+    </bib>
+    <footer>SACRED PLACES is written and produced by <person type="author">Christopher L. C. E.
+            Witcombe</person>, Professor, Department of Art History, Sweet Briar College, <location
+            type="state">Virginia</location>, 24595 <location type="country">USA</location></footer>
+</xml>

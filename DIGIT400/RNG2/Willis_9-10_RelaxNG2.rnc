@@ -1,0 +1,33 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = xml
+xml = element xml {header, title, (p+ | img+)+, bib, footer}
+
+header = element header {text}
+
+title = element title {mixed{location}}
+location = element location {type, text}
+type = attribute type {text}
+
+img = element img {of}
+of = attribute of {text}
+
+p = element p {n, mixed{(location* | paren* | plantSpecies* | religion* | landmark* | link* | shrineName* | diety* | person* | quote*)+}}
+paren = element paren {mixed{shrineName? | language?}}
+plantSpecies = element plantSpecies {text}
+religion = element religion {text}
+landmark = element landmark {type, text}
+link = element link {text}
+shrineName = element shrineName {mixed{location?}}
+diety = element diety {text}
+person = element person {type, text}
+quote = element quote {mixed{ethnicity}}
+ethnicity = element ethnicity {text}
+n = attribute n {text}
+
+bib = element bib {subHead, ref*}
+subHead = element subHead {text}
+ref = element ref {mixed{(person+|ethnicity?|location+|religion?|shrineName?|paren*|ethnicity*)+}}
+language = element language {text}
+
+footer = element footer {mixed{person, location*}}
