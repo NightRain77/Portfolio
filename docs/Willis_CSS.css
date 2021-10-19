@@ -100,3 +100,26 @@ color: #a4def9;
   display: block;
   
 }
+
+table
+{
+    background-color: pink;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+button
+{
+    background-color: floralwhite;
+    font-family: "Monaco", "Courier New", monospace;
+    margin: auto;
+}
+
+a
+{
+ background-color: pink;
+ font-family: "Monaco", "Courier New", monospace;
+ margin: auto;
+ }
