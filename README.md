@@ -1,2 +1,2 @@
-# Digital-Portfolio
-my repo for digit 100 :)
+# Portfolio
+My digital portfolio.
