@@ -132,3 +132,20 @@ a
  font-family: "Monaco", "Courier New", monospace;
  margin: auto;
  }
+
+.collapsible {
+  background-color: pink;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+    font-size: 20px;}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
