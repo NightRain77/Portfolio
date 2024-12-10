@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h1
+{
+    color:darkorange;
+    font-size: 50px;
+    font-family: "Monaco", "Times New Roman", monospace;
+    text-align: center;
+}
+body
+{
+    background-color: #fff9e6;
+    font-size: 17px;
+    text-align: left;
+}
+li
+{
+    text-align: left;
+}
+div
+{
+  text-align: center;
+}
+footer
+{
+   color:darkorange;
+    font-size: 15px;
+    font-family: "Monaco", "Times New Roman", monospace;
+    text-align: left;
+}
