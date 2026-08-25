@@ -1,0 +1,249 @@
+/* Headings */
+h1 {
+    color:#2c3e50;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+h4 {
+    color:#758ec4;
+    text-align:left;
+    font-family: "JetBrains Mono", monospace;
+}
+
+h5 {
+    color:#758ec4;
+    font-size: 20px;
+    font-family: "JetBrains Mono", monospace;
+    text-align: center;
+}
+
+/* Nav Bar */
+
+li {
+    text-align: left;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b2c4dc;
+  text-align: left;
+  font-family: "Monaco", "Courier New", monospace;
+  letter-spacing: 1px;
+  color: #758ec4;
+  font-size: 20px;
+}
+
+li.navbar {
+  float: left;
+}
+
+li.navbar a {
+  display: block;
+  color: #09142e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.navbar a:hover {
+  color: #a4def9;
+  background-color: #09142e;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: #09142e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #09142e;
+  color: #a4def9;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b2c4dc;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #09142e;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #09142e;
+color: #a4def9;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ /* Base Reset & Variables */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #89aad4;
+            --text-dark: #333333;
+            --text-light: #7f8c8d;
+            --bg-light: #f8f9fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        /* Container Blueprint */
+        .resume-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 3rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2.5rem;
+        }
+
+        /* Header Style */
+        header {
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 1.5rem;
+            text-align: center;
+        }
+        header h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            color: var(--accent-color);
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        /* Grid Layout for Two Columns on Desktop */
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 3rem;
+        }
+
+        /* Typography & Layout Blocks */
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.3rem;
+            margin-bottom: 1.2rem;
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        /* Job & Education Items */
+        .item {
+            margin-bottom: 1.5rem;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+        }
+        .item-title {
+            font-weight: bold;
+            color: var(--text-dark);
+        }
+        .item-meta {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+        .item-company {
+            color: var(--accent-color);
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+        ul {
+            padding-left: 1.2rem;
+            color: #555;
+        }
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        /* Sidebar Info */
+        .contact-link {
+            display: block;
+            color: var(--text-dark);
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+        }
+        .contact-link:hover {
+            color: var(--accent-color);
+        }
+        .skill-tag {
+            display: inline-block;
+            background: var(--bg-light);
+            color: var(--primary-color);
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            margin: 0.2rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* Responsive Breakpoint */
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .resume-container {
+                padding: 1.5rem;
+            }
+            .item-header {
+                flex-direction: column;
+            }
+        }
