@@ -247,3 +247,129 @@ color: #a4def9;
                 flex-direction: column;
             }
         }
+
+        /* Gallery */
+        .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto; /* Preserve full image without cropping */
+  object-fit: contain;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.item-info {
+  padding: 15px;
+  font-family: "Palatino", "URW Palladio L", serif;
+  text-align: center;
+  background-color: white;
+  
+}
+
+.item-info h3 {
+  font-size: 1.2rem;
+  font-family: "Palatino", "URW Palladio L", serif;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+.item-info p {
+  color: #7f8c8d;
+  font-family: "Palatino", "URW Palladio L", serif;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: #7f8c8d;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  color: #7f8c8d;
+  border-top: 1px solid #e1e4e8;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .tab {
+    padding: 10px 16px;
+    font-family: "Georgia", Times, serif;
+    font-size: 0.9rem;
+  }
+}
+
+/* Back to Top button */
+#backToTop {
+  position: fixed;
+  right: 20px;
+  bottom: 24px;
+  background: #b2c4dc;
+  color: #09142e;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  font-size: 20px;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 1000;
+}
+#backToTop.show {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+#backToTop:hover {
+  transform: scale(1.05);
+}

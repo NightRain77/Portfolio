@@ -214,3 +214,112 @@ hr {
     }
 }
 
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    width: min(1100px, calc(100% - 2rem));
+    margin: 0 auto;
+    align-items: start;
+}
+
+.gallery-item {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(45, 64, 89, 0.12);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 24px rgba(24, 38, 52, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(24, 38, 52, 0.12);
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    background: #edf2f7;
+}
+
+.item-info {
+    padding: 1rem 0.9rem 1.2rem;
+    text-align: center;
+}
+
+.item-info h3 {
+    margin: 0 0 0.3rem;
+    font-size: 1.2rem;
+    color: #2d4059;
+}
+
+.item-info p {
+    margin: 0;
+    color: #53657a;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 700px) {
+    #gallery {
+        width: min(100%, calc(100% - 1rem));
+        gap: 1rem;
+    }
+
+    .gallery-item img {
+        height: 210px;
+    }
+}
+
+#backToTop {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #b2c4dc 0%, #91aacb 100%);
+    color: #09142e;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1;
+    box-shadow: 0 10px 20px rgba(9, 20, 46, 0.18);
+    cursor: pointer;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(12px);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease, visibility 0.2s ease;
+}
+
+#backToTop.show {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+#backToTop:hover,
+#backToTop:focus-visible {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 14px 26px rgba(9, 20, 46, 0.22);
+    outline: none;
+}
+
+@media (max-width: 700px) {
+    #backToTop {
+        right: 0.9rem;
+        bottom: 0.9rem;
+        width: 44px;
+        height: 44px;
+        font-size: 1.45rem;
+    }
+}
+
