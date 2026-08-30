@@ -75,6 +75,16 @@ const galleryData = [
     image:
       "images/BACKGROUND_water_AW.jpg",
   },
+  {
+    id: 16,
+    image:
+      "images/ball-animation.gif",
+  },  
+    {
+    id: 17,
+    image:
+      "images/Animation.gif",
+  },
 ];
 
 // DOM elements

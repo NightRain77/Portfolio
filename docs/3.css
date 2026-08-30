@@ -215,17 +215,18 @@ hr {
 }
 
 #gallery {
-    column-count: 2;
-    column-gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
     width: min(1150px, calc(100% - 1rem));
     margin: 0 auto;
     align-items: start;
 }
 
 .gallery-item {
-    display: inline-block;
+    display: block;
     width: 100%;
-    margin: 0 0 1rem;
+    margin: 0;
     break-inside: avoid;
     background: transparent;
     border: none;
@@ -269,15 +270,15 @@ hr {
 }
 
 @media (max-width: 700px) {
-    .gallery {
-        column-count: 2;
+    #gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         width: min(100%, calc(100% - 1rem));
     }
 }
 
 @media (max-width: 500px) {
-    .gallery {
-        column-count: 1;
+    #gallery {
+        grid-template-columns: 1fr;
         width: min(100%, calc(100% - 1rem));
     }
 }

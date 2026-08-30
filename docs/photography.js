@@ -49,6 +49,140 @@ const galleryData = [
       "images/photography/DSC_0673.JPG",
     description: "May 2026"
   },
+  {
+    id: 8,
+    title: "Lilac",
+    image:
+      "images/photography/DSC_0247.JPG",
+    description: "May 2025"
+  },
+  {
+    id: 9,
+    title: "Apple blossom",
+    image:
+      "images/photography/DSC_0263.JPG",
+    description: "May 2025"
+  },
+  {
+    id: 10,
+    title: "Hibiscus",
+    image:
+      "images/photography/DSC_0289.JPG",
+    description: "May 2025"
+  },
+  {
+    id: 11,
+    title: "Chipping Sparrow",
+    image:
+      "images/photography/DSC_0365.JPG",
+    description: "May 2024"
+  },
+  {
+    id: 12,
+    title: "Iris buds",
+    image:
+      "images/photography/DSC_0462.JPG",
+    description: "May 2024"
+  },
+  {
+    id: 13,
+    title: "Butterfly",
+    image:
+      "images/photography/DSC_1598.JPG",
+    description: "May 2024"
+  },
+  {
+    id: 14,
+    title: "Cows",
+    image:
+      "images/photography/DSC_0381.JPG",
+    description: "May 2024"
+  },
+  {
+    id: 15,
+    title: "Flowers",
+    image:
+      "images/photography/DSC_0199.JPG",
+    description: "June 2025"
+  },
+  {
+    id: 16,
+    title: "Bluebirds",
+    image:
+      "images/photography/DSC_0186.JPG",
+    description: "June 2024"
+  },
+  {
+    id: 17,
+    title: "Charlie",
+    image:
+      "images/photography/DSC_0187.JPG",
+    description: "June 2024"
+  },
+  {
+    id: 18,
+    title: "Canadian Geese",
+    image:
+      "images/photography/DSC_0192.JPG",
+    description: "June 2024"
+  },
+  {
+    id: 19,
+    title: "Butterfly",
+    image:
+      "images/photography/DSC_0213.JPG",
+    description: "July 2024"
+  },
+  {
+    id: 20,
+    title: "Bubbles",
+    image:
+      "images/photography/DSC_0029.JPG",
+    description: "August 2023"
+  },
+  {
+    id: 21,
+    title: "Dawnya",
+    image:
+      "images/photography/DSC_0067.JPG",
+    description: "August 2023"
+  },
+  {
+    id: 22,
+    title: "Sunflower Field",
+    image:
+      "images/photography/DSC_0203.JPG",
+    description: "August 2023"
+  },
+  {
+    id: 23,
+    title: "Akira",
+    image:
+      "images/photography/akira.JPG",
+    description: "August 2021"
+  },
+  {
+    id: 24,
+    title: "Akira",
+    image:
+      "images/photography/DSC_0012.jpg",
+    description: "August 2021"
+  },
+  {
+    id: 25,
+    title: "Dandelion",
+    image:
+      "images/photography/dandelion.JPG",
+    description: "August 2021"
+  },
+  {
+    id: 26,
+    title: "Walking home",
+    image:
+      "images/photography/DSC_0142.jpg",
+    description: "August 2021"
+  },
+
 ];
 
 // DOM elements

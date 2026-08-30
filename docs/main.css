@@ -17,6 +17,7 @@ body {
     color: black;
     font-size: 17px;
     text-align: center;
+    margin: 0;
 }
 
 h4 {
@@ -49,6 +50,7 @@ ul.navbar {
   letter-spacing: 1px;
   color: #758ec4;
   font-size: 20px;
+  border-bottom: 1.25rem solid white;
 }
 
 li.navbar {
@@ -126,7 +128,7 @@ color: #a4def9;
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             color: var(--text-dark);
-            background-color: var(--bg-light);
+            background-color: white;
             line-height: 1.6;
             padding: 2rem 1rem;
         }
